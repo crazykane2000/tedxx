@@ -1,0 +1,142 @@
+.pcs-entity-title {
+    font-size: 28pt;
+    color: #000000;
+}
+
+.pcs-itemtable-header {
+    font-size: 9pt;
+    color: #ffffff;
+    background-color: #3c3d3a;
+}
+
+.pcs-item-row {
+    font-size: 8pt;
+    border-bottom: 1px solid #e3e3e3;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.pcs-balance {
+    background-color: #f5f4f3;
+    font-size: 9pt;
+    color: #000000;
+}
+
+.ribbon {
+    position: absolute!important;
+    top: -5px;
+    left: -5px;
+    overflow: hidden;
+    width: 96px;
+    height: 94px;
+    border-bottom-right-radius: 92px;
+}
+
+.ribbon .ribbon-success {
+    background: #1fcd6d;
+    border-color: #18a155;
+}
+
+.list-column .zi-table tr:first-of-type td {
+    border-top-color: transparent;
+}
+.list-column .zi-table td {
+    padding: 10px 8px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.vb
+{
+      
+}
+
+.ribbon .ribbon-overdue {
+    background: #f59d00;
+    border-color: #c27c00;
+}
+.ribbon .ribbon-inner {
+    text-align: center;
+    color: #FFF;
+    top: 24px;
+    left: -31px;
+    width: 135px;
+    padding: 3px;
+    position: relative;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+
+.ribbon .ribbon-inner:before {
+    left: 0;
+    border-left: 2px solid transparent;
+}
+.ribbon .ribbon-inner:after, .ribbon .ribbon-inner:before {
+    content: "";
+    border-top: 5px solid transparent;
+    border-left: 5px solid;
+    border-left-color: inherit;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-bottom-color: inherit;
+    position: absolute;
+    top: 20px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+
+:hov
+
+.cls
+
+.ribbon .ribbon-inner:after {
+    right: -2px;
+    border-bottom: 3px solid transparent;
+}
+
+.ribbon .ribbon-inner:before {
+    left: 0;
+    border-left: 2px solid transparent;
+}
+.ribbon .ribbon-inner:after, .ribbon .ribbon-inner:before {
+    content: "";
+    border-top: 5px solid transparent;
+    border-left: 5px solid;
+    border-left-color: inherit;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-bottom-color: inherit;
+    position: absolute;
+    top: 20px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.ribbon .ribbon-inner:after {
+    right: -2px;
+    border-bottom: 3px solid transparent;
+}
+
+.ribbon .ribbon-inner {
+    text-align: center;
+    color: #FFF;
+    top: 24px;
+    left: -31px;
+    width: 135px;
+    padding: 3px;
+    position: relative;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
